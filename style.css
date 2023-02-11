@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+    font-family: "Comic Sans MS", "Comic Sans"
+}
+
+.banner{
+    background-image:url(./assets/img/design1_image1.jpg);
+    min-height: 350px;
+background-size: cover;
+}
+
+h1{
+    font-size: 3.6em;
+    margin-left: 0.4em;
+}
+.events{
+    padding: 0.8em;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.logo{
+    border: 0.2em solid white;
+    display:inline-block;
+    background-color: black;
+    text-align: end;
+}
+.content-logo{
+    margin-top: -6.5em;
+    margin-right: 85px;
+    text-align: end;
+}
+.menu{
+    display: block;
+}
+
+.container{
+    display: flex;
+}
+
+.menu > a{
+    display: block;
+    padding:0em 0em 3em 3em;
+}
+
+.content{
+    margin-left:5em;
+}
+
+.event-content{
+    margin-bottom: 10px;
+}
+.event-content > p{
+    margin-left: 14px;
+    padding: 0.4em;
+}
