@@ -6,7 +6,7 @@
 }
 
 .banner{
-    background-image:url(./assets/img/design1_image1.jpg);
+    background-image:url(./img/design1_image1.jpg);
     min-height: 350px;
 background-size: cover;
 border-bottom: solid 2px black;
