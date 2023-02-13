@@ -9,23 +9,27 @@
     background-image:url(./assets/img/design1_image1.jpg);
     min-height: 350px;
 background-size: cover;
+border-bottom: solid 2px black;
 }
 
 h1{
     font-size: 3.6em;
     margin-left: 0.4em;
 }
-.events{
+.section{
+    margin-top: 3px;
     padding: 0.8em;
     background-color: black;
     color:white;
     text-align: center;
+    padding-right: 11.8em;
+    max-width: 100%;
 }
 .logo{
     border: 0.2em solid white;
     display:inline-block;
     background-color: black;
-    text-align: end;
+    border-radius: 6px;
 }
 .content-logo{
     margin-top: -6.5em;
@@ -33,26 +37,35 @@ h1{
     text-align: end;
 }
 .menu{
-    display: block;
+    display: inline-block;
+    max-width: 25%;
+    vertical-align: top;
+
 }
 
 .container{
-    display: flex;
+    display: inline-block;
 }
 
 .menu > a{
+    padding:0 0 50px 30px;
     display: block;
-    padding:0em 0em 3em 3em;
+}
+
+.logo > img{
+    height:9em;
 }
 
 .content{
+    display: inline-block;
     margin-left:5em;
+    max-width: 80%;
 }
 
-.event-content{
+.section-content{
     margin-bottom: 10px;
 }
-.event-content > p{
+.section-content > p{
     margin-left: 14px;
-    padding: 0.4em;
+    padding: 0.5em;
 }
