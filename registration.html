@@ -33,55 +33,46 @@
       <div class="section-content">
         <form action="show_data.html">
           <fieldset>
-            <ol>
-              <li class="li_form">
+            <h3>Registration Form</h3>
                 <label>
                   Player's First Name:
-                  <input required name="first_name" type="text" maxlength="40">
+                  <input required name="first_name" id="first_name" type="text" maxlength="40">
                 </label>
-              </li>
-              <li class="li_form">
+
                 <label>
                   Last Name:
-                  <input required name="last_name" type="text" maxlength="40">
+                  <input required name="last_name" id="last_name"  type="text" maxlength="40">
                 </label>
-              </li>
-                     
-              <li class="li_form2">
+
           <label>
             Street Address:
-            <input required name="street_address" type="text" maxlength="100">
+            <input required name="street_adress" id="street_address" type="text" maxlength="100">
           </label>
-              </li>
-              <li class="li_form">
+
           <label>
             City:
-            <input required name="city" type="text" maxlength="60">
+            <input required name="city" id="city" type="text" maxlength="60">
           </label>
-              </li>
-              <li class="li_form">
+
             
           <label>             
             Zip Code:
-            <input required name="zip_code" type="number" maxlength="12">
+            <input required name="zip_code" id="zip_code" type="number" maxlength="12">
           </label>
-          </li>
 
-      
-      <li class="li_form">
+
+
           <label>
             Birth Date (mm/dd/yyyy):
-            <input required name="birth_date" type="date">
+            <input required name="birth_date" id="birth_date" type="date">
           </label>
-      </li>
-      <li>
+
           <label>
             Gender:
             <input required name="gender" type="radio" id="female" value="female"><label for="female">Female</label>
             <input required name="gender" type="radio" id="male" value="male"><label for="male">Male</label>
           </label>
-        </li>
-            <li>
+          <div>
           <label>
             Grade:
             <input required name="grade" type="radio" id="preschool" value="PreSchool"><label
@@ -92,7 +83,7 @@
             <input required name="grade" type="radio" id="4th" value="4th"><label for="4th">4th</label>
             <input required name="grade" type="radio" id="5th" value="5th"><label for="5th">5th</label>
           </label>
-        </li>
+        </div>
       </fieldset>
   <fieldset>
       <legend>Which elementary school do you live near?</legend>
@@ -154,7 +145,9 @@
             <input name="date" id="date" type="date">
           </label>
       </div>
+      <div class="boton">
       <button>Enviar</button>
+    </div>
       </form>
   </body>
   </html>
