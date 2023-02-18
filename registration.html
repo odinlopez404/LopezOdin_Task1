@@ -31,7 +31,7 @@
     </div>
     <div class="content">
       <div class="section-content">
-        <form action="show_data.html">
+        <form action="show_data.html" method="get">
           <fieldset>
             <h3>Registration Form</h3>
                 <label>
@@ -63,7 +63,7 @@
 
 
           <label>
-            Birth Date (mm/dd/yyyy):
+            Birth Date (dd/mm/yyyy):
             <input required name="birth_date" id="birth_date" type="date">
           </label>
 
@@ -75,7 +75,7 @@
           <div>
           <label>
             Grade:
-            <input required name="grade" type="radio" id="preschool" value="PreSchool"><label
+            <input required name="grade" type="radio" id="preschool" value="preschool"><label
               for="preschool">Pre-School</label>
             <input required name="grade" type="radio" id="1st" value="1st"><label for="1st">1st</label>
             <input required name="grade" type="radio" id="2nd" value="2nd"><label for="2nd">2nd</label>
@@ -131,13 +131,13 @@
             personnel and volunteers, including the facilities used for practices and games, against any claim by or on
             behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported
             to or from MDHL sponsored activities, which transportation
-            By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge
+            By entering your name below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge
             that I have read the cancellation policy and agree to its terms.
           </p>
           <div>
           <label>
-            Parent/GuardianSignature:
-            <input required name="parent" type="text" id="parent" placeholder="Insert Parent/Guardian Name and Lastname">
+            Parent/Guardian:
+            <input required name="parent" type="text" id="parent" placeholder="Parent/Guardian Name and Lastname">
           </label>
         </div>
           <label>
@@ -146,7 +146,7 @@
           </label>
       </div>
       <div class="boton">
-      <button>Enviar</button>
+      <button>Send</button>
     </div>
       </form>
   </body>
